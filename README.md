@@ -1,6 +1,6 @@
 ## Qustões do teste da Target Sistemas
 
-1) Observe o trecho de código:
+### 1) Observe o trecho de código:
 
 int INDICE = 12, SOMA = 0, K = 1;
 
@@ -14,7 +14,7 @@ Ao final do processamento, qual será o valor da variável SOMA?
 
 R: O valor da variável será 77
 
-2) Descubra a lógica e complete o próximo elemento:
+### 2) Descubra a lógica e complete o próximo elemento:
 
 a) 1, 3, 5, 7, ___ = 9
 
@@ -28,17 +28,15 @@ e) 1, 1, 2, 3, 5, 8, ____ = 13
 
 f) 2, 10, 12, 16, 17, 18, 19, ____ = 200
 
-3) Dado um vetor que guarda o valor de faturamento diário de uma distribuidora de todos os dias de um ano, faça um programa, na linguagem que desejar, que calcule e retorne:
+### 3) Dado um vetor que guarda o valor de faturamento diário de uma distribuidora de todos os dias de um ano, faça um programa, na linguagem que desejar, que calcule e retorne:
 
 - O menor valor de faturamento ocorrido em um dia do ano;
 - O maior valor de faturamento ocorrido em um dia do ano;
 - Número de dias no ano em que o valor de faturamento diário foi superior à média anual.
 
-a) Considerar o vetor já carregado com as informações de valor de faturamento.
-
-b) Podem existir dias sem faturamento, como nos finais de semana e feriados. Estes dias devem ser ignorados no cálculo da média.
-
-c) Utilize o algoritmo mais veloz que puder definir.
+#### a) Considerar o vetor já carregado com as informações de valor de faturamento.
+#### b) Podem existir dias sem faturamento, como nos finais de semana e feriados. Estes dias devem ser ignorados no cálculo da média.
+#### c) Utilize o algoritmo mais veloz que puder definir.
 
 void main() {
   // faturamentos do ano
@@ -71,9 +69,7 @@ void main() {
 }
 
 
-4) Banco de dados
-
-Uma empresa solicitou a você um aplicativo para manutenção de um cadastro de clientes. Após a reunião de definição dos requisitos, as conclusões foram as seguintes:
+### 4) Banco de dados - Uma empresa solicitou a você um aplicativo para manutenção de um cadastro de clientes. Após a reunião de definição dos requisitos, as conclusões foram as seguintes:
 
 - Um cliente pode ter um número ilimitado de telefones;
 - Cada telefone de cliente tem um tipo, por exemplo: comercial, residencial, celular, etc. O sistema deve permitir cadastrar novos tipos de telefone;
@@ -132,11 +128,11 @@ WHERE e.sigla_estado = 'SP';
 
 
 
-5) Dois veículos, um carro e um caminhão, saem respectivamente de cidades opostas pela mesma rodovia. O carro, de Ribeirão Preto em direção a Barretos, a uma velocidade constante de 90 km/h, e o caminhão, de Barretos em direção a Ribeirão Preto, a uma velocidade constante de 80 km/h. Quando eles se cruzarem no percurso, qual estará mais próximo da cidade de Ribeirão Preto?
+### 5) Dois veículos, um carro e um caminhão, saem respectivamente de cidades opostas pela mesma rodovia. O carro, de Ribeirão Preto em direção a Barretos, a uma velocidade constante de 90 km/h, e o caminhão, de Barretos em direção a Ribeirão Preto, a uma velocidade constante de 80 km/h. Quando eles se cruzarem no percurso, qual estará mais próximo da cidade de Ribeirão Preto?
 
-a) Considerar a distância de 125km entre a cidade de Ribeirão Preto <-> Barretos.
-b) Considerar 3 pedágios como obstáculo e que o carro leva 5 minutos a mais para passar em cada um deles, pois ele não possui dispositivo de cobrança de pedágio.
-c)Explique como chegou no resultado.
+#### a) Considerar a distância de 125km entre a cidade de Ribeirão Preto <-> Barretos.
+#### b) Considerar 3 pedágios como obstáculo e que o carro leva 5 minutos a mais para passar em cada um deles, pois ele não possui dispositivo de cobrança de pedágio.
+#### c)Explique como chegou no resultado. <br>
 
 velocidade médica do carro considerando os pedágios: 125/((125/90) + 0.25) = 89.93 km/h
 
